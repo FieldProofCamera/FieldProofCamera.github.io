@@ -3,45 +3,100 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FieldProof Privacy Policy</title>
+<title>FieldProof Camera</title>
+<meta name="description" content="FieldProof Camera: tamper-proof photos with trusted time, GPS and a security QR. Privacy policy.">
 <style>
-:root { --bg:#111; --card:#1b1b1b; --text:#eee; --sub:#aaa; --accent:#FFC107; }
+:root { --bg:#111; --card:#1c1c1c; --line:#2c2c2c; --text:#eee; --sub:#aaa; --accent:#FFC107; }
 * { box-sizing:border-box; }
-body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
-main { max-width:720px; margin:0 auto; padding:32px 16px 48px; }
-header { display:flex; align-items:center; gap:14px; margin-bottom:20px; }
-.logo { width:48px; height:48px; border-radius:12px; background:var(--accent); display:grid; place-items:center; }
-.logo span { width:26px; height:26px; border-radius:50%; background:#212121; border:3px solid #424242; }
-h1 { font-size:26px; margin:0; }
-h2 { font-size:17px; color:var(--accent); margin:28px 0 4px; }
+body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+main { max-width:860px; margin:0 auto; padding:28px 16px 56px; }
+header { display:flex; align-items:center; gap:16px; margin-bottom:8px; }
+.logo { width:56px; height:56px; flex:none; border-radius:14px; background:var(--accent); display:grid; place-items:center; }
+.logo span { width:30px; height:30px; border-radius:50%; background:#1a237e; border:5px solid #424242; box-shadow:0 0 0 3px #212121; }
+h1 { font-size:30px; line-height:1.2; margin:0; }
+h1 b { color:var(--accent); }
+.tag { color:var(--sub); font-size:18px; margin:6px 0 0; }
+nav { display:flex; flex-wrap:wrap; gap:8px; margin:22px 0 8px; }
+nav a { color:var(--text); text-decoration:none; border:1px solid var(--line); border-radius:20px; padding:6px 14px; font-size:14px; }
+nav a:hover { border-color:var(--accent); color:var(--accent); }
+section { margin-top:40px; }
+h2 { font-size:22px; margin:0 0 14px; padding-bottom:8px; border-bottom:2px solid var(--accent); display:inline-block; }
+h3 { font-size:16px; color:var(--accent); margin:0 0 4px; }
 p { margin:0 0 8px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px; }
+.card, .step { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; }
+.card p, .step p { color:#cfcfcf; font-size:15px; margin:0; }
+ul { padding-left:20px; margin:0; }
+li { margin:6px 0; }
+#privacy h3 { margin-top:22px; }
 .lead { color:var(--sub); }
-.meta { color:var(--sub); font-size:14px; margin-top:28px; }
+.meta { color:var(--sub); font-size:14px; margin-top:24px; }
+footer { margin-top:48px; color:var(--sub); font-size:13px; text-align:center; }
 </style>
 </head>
 <body>
 <main>
-<header><div class="logo"><span></span></div><h1>FieldProof Privacy Policy</h1></header>
-<p class="lead">FieldProof is made by ASIF KHALID. This policy explains what the app does with your information.</p>
-<h2>Everything stays on your phone</h2>
-<p>FieldProof has no account, no server of its own, no ads and no analytics. Photos, videos, locations and settings are saved only on your phone, in the folder you choose. Nothing is uploaded by the app.</p>
-<h2>Camera and microphone</h2>
+<header><div class="logo"><span></span></div>
+<div><h1>FieldProof <b>Camera</b></h1><p class="tag">Photos that prove when and where they were taken.</p></div></header>
+<nav><a href="#uses">Where to use it</a><a href="#how">How the proof works</a><a href="#why">Why it helps</a><a href="#privacy">Privacy policy</a></nav>
+
+<section><p>FieldProof Camera stamps every photo and video with the real date and time, GPS location, address and your own notes, and seals the picture so nobody can quietly change the time, place or details afterwards. It is built for work where a photo is evidence.</p></section>
+
+<section id="uses"><h2>Where to use it</h2>
+<div class="grid">
+<div class="card"><h3>Vehicles and fleets</h3><p>Odometer and fuel readings, pre-trip checks, damage before and after a rental, accident scenes.</p></div>
+<div class="card"><h3>Construction and sites</h3><p>Daily progress, materials delivered, safety checks and snag lists with the real date and place.</p></div>
+<div class="card"><h3>Inspections and audits</h3><p>HSE, equipment and building inspections where the photo must prove when and where it was taken.</p></div>
+<div class="card"><h3>Delivery and logistics</h3><p>Proof of delivery or pickup at the customer&#x27;s door, with GPS and time that cannot be changed.</p></div>
+<div class="card"><h3>Field service and telecom</h3><p>Site visits, installations and repairs, before and after photos for each job.</p></div>
+<div class="card"><h3>Insurance and claims</h3><p>Damage photos for claims, with a seal that shows if the picture was edited.</p></div>
+<div class="card"><h3>Property and real estate</h3><p>Move-in and move-out condition, maintenance work and rental handovers.</p></div>
+<div class="card"><h3>Security and patrols</h3><p>Guard rounds and checkpoints, with a time and location record for every photo.</p></div>
+</div></section>
+
+<section id="how"><h2>How the proof works</h2>
+<div class="grid">
+<div class="step"><h3>Trusted time</h3><p>The time is checked against internet time servers or GPS, not the phone clock, so changing the phone&#x27;s date does not change the stamp.</p></div>
+<div class="step"><h3>GPS and address</h3><p>Coordinates, accuracy, address, compass, altitude and speed are printed on the photo and saved inside the file. Fake-GPS apps are detected and marked.</p></div>
+<div class="step"><h3>Tamper seal</h3><p>Every photo is signed with a key created inside the phone that never leaves it. Changing even one digit, such as an odometer reading, makes the photo show as EDITED when it is checked.</p></div>
+<div class="step"><h3>Security QR strip</h3><p>A signed QR code under the photo carries the photo ID, time and place. It survives WhatsApp compression, so a forwarded photo can still be checked.</p></div>
+<div class="step"><h3>Sealed ZIP sharing</h3><p>Photos can be sent as a ZIP, which messaging apps do not compress, so the full seal arrives intact.</p></div>
+<div class="step"><h3>Built-in verification</h3><p>Anyone with the app can open a photo or ZIP and see ORIGINAL, EDITED or NOT VERIFIED, plus the location on Google Maps.</p></div>
+</div></section>
+
+<section id="why"><h2>Why it helps</h2>
+<ul>
+<li>Stops disputes: the photo itself proves the time and place.</li>
+<li>Catches edits made with photo editors or AI tools.</li>
+<li>Works offline; the stamp and seal are made on the phone.</li>
+<li>No account, no ads, no tracking. Photos stay on your phone.</li>
+<li>Fast for teams: custom text, tags, index numbers and your company logo on every photo.</li>
+</ul></section>
+
+<section id="privacy"><h2>Privacy policy</h2>
+<p class="lead">FieldProof Camera is made by ASIF KHALID. This policy explains what the app does with your information.</p>
+<h3>Everything stays on your phone</h3>
+<p>FieldProof Camera has no account, no server of its own, no ads and no analytics. Photos, videos, locations and settings are saved only on your phone, in the folder you choose. Nothing is uploaded by the app.</p>
+<h3>Camera and microphone</h3>
 <p>Used only to take the photos and videos you ask for. Sound is recorded only while you record a video.</p>
-<h2>Location</h2>
+<h3>Location</h3>
 <p>Used only while the camera screen is open, to print GPS coordinates on your photos and store them in the file. The address is looked up with Android&#x27;s built-in geocoder, which sends the coordinates to your phone&#x27;s location provider (usually Google).</p>
-<h2>Trusted time</h2>
+<h3>Trusted time</h3>
 <p>To stop fake times, the app asks public time servers (time.google.com, time.cloudflare.com, pool.ntp.org) for the current time. Only a standard time request is sent; no personal data.</p>
-<h2>Security seal</h2>
+<h3>Security seal</h3>
 <p>Each photo is signed with a key that is created inside your phone and never leaves it. The photo ID, time and location are stored inside the photo and in its QR code so that anyone you send the photo to can check it.</p>
-<h2>Sharing</h2>
+<h3>Sharing</h3>
 <p>Photos leave your phone only when you share them yourself (WhatsApp, email and so on). Those apps have their own privacy policies.</p>
-<h2>Children</h2>
-<p>FieldProof is a work tool and is not directed at children.</p>
-<h2>Deleting your data</h2>
+<h3>Children</h3>
+<p>FieldProof Camera is a work tool and is not directed at children.</p>
+<h3>Deleting your data</h3>
 <p>Delete photos in the app&#x27;s gallery or your phone&#x27;s gallery. Uninstalling the app removes its settings and its signing key.</p>
-<h2>Contact</h2>
-<p>Use the developer email shown on FieldProof&#x27;s Google Play page.</p>
+<h3>Contact</h3>
+<p>Use the developer email shown on the FieldProof Camera Google Play page.</p>
 <p class="meta">Last updated: 27 October 2026</p>
+</section>
+
+<footer>© 2026 ASIF KHALID · FieldProof Camera</footer>
 </main>
 </body>
 </html>
